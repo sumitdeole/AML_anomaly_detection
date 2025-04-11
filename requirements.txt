@@ -1,0 +1,9 @@
+pandas 
+scikit-learn 
+networkx 
+python-louvain 
+pyvis 
+imbalanced-learn
+numpy
+matplotlib 
+seaborn
