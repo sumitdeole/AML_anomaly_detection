@@ -6,7 +6,7 @@ Credit card fraud is a costly issue for banks and customers. The goal of this pr
 
 ## How
 
-We use the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), which contains 284,807 transactions with only 492 frauds (~0.17%). Due to this imbalance, we evaluate anomaly detection, classical supervised models, and deep learning with and without oversampling.
+We use the [Credit Card Fraud Detection dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), which contains 284,807 transactions with only 492 frauds (~0.17%). Due to this imbalance, we evaluate anomaly detection, classical supervised models, and deep learning with and without oversampling and compare their performance.
 
 Steps include:
 
