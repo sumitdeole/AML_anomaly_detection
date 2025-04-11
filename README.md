@@ -1,8 +1,8 @@
-# Credit Card Fraud Detection using Machine Learning
+# Credit Card Fraud Detection
 
 ## What & Why
 
-Credit card fraud is a costly and growing issue. The goal of this project is to detect fraudulent transactions using machine learning techniques on real anonymized transactional data. This helps improve financial security and reduce losses due to fraud.
+Credit card fraud is a costly issue for banks and customers. The goal of this project is to detect fraudulent transactions using anomaly detection and ML techniques on real anonymized transactional data. This helps improve financial security and reduce losses due to fraud.
 
 ## How
 
@@ -15,7 +15,7 @@ Steps include:
 - Model training (Isolation Forest, Neural Networks, DNNs)  
 - Evaluation and visual inspection  
 
-All code and outputs are in [`rough.ipynb`](./rough.ipynb).
+All code and outputs are in this [`jupyter notebook`](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/AML_Anomaly_Detection.ipynb).
 
 ## 📊 Model Performance
 
@@ -32,9 +32,9 @@ Deep neural networks on imbalanced data performed best in terms of AUC. SMOTE he
 
 ## Key Figures
 
-- `fig1_data_distribution.pdf`: Class imbalance and amount distribution  
-- `fig2_correlation_matrix.pdf`: Feature correlation heatmap (PCA-transformed)  
-- `fig3_model_performance.pdf`: ROC curves comparison  
+- [Fig. 1: Fraud network analysis](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/1.Fraud_network_analysis.pdf)  
+- [Fig. 2: Class balancing using SMOTE](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/2.SMOTE_balancing_before_vs_after.pdf)  
+- [Fig. 3: Model performance comparison](https://github.com/sumitdeole/AML_anomaly_detection/blob/main/3.Model_performance.pdf)
 
 All figures are saved as PDFs during notebook execution.
 
@@ -48,3 +48,5 @@ cd creditcard-fraud-detection
 
 2. **Install requirements**
 pip install -r requirements.txt
+
+3. **Execute notebook cells**
